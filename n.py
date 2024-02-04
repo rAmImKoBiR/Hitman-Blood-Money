@@ -9,4 +9,4 @@ def peast(output,part_of_file):
     for i in range(part_of_file):
         open(  output,"ab"  ).write(  open(  f"part/{i}.bin","rb" ) .read() )
 # split("a.exe",28)
-peast("k.exe",10)
+peast("k.exe",11)
